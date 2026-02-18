@@ -1,17 +1,80 @@
 [gd_scene format=3 uid="uid://blv01c8txyhxu"]
 
-[ext_resource type="Texture2D" uid="uid://bdj0dnua83qu7" path="res://icon.svg" id="1_ideak"]
+[ext_resource type="Texture2D" uid="uid://d3qqca5wt7j41" path="res://Assets/Placeholder/16x32-charplaceholder.png" id="1_2xp5l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhy3c"]
+atlas = ExtResource("1_2xp5l")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3i1kj"]
+atlas = ExtResource("1_2xp5l")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6cys"]
+atlas = ExtResource("1_2xp5l")
+region = Rect2(0, 32, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldo70"]
+atlas = ExtResource("1_2xp5l")
+region = Rect2(0, 32, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fnhme"]
+atlas = ExtResource("1_2xp5l")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uamtn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhy3c")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3i1kj")
+}],
+"loop": true,
+"name": &"idle_dowm",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o6cys")
+}],
+"loop": true,
+"name": &"idle_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldo70")
+}],
+"loop": true,
+"name": &"idle_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fnhme")
+}],
+"loop": true,
+"name": &"idle_up",
+"speed": 5.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xxcha"]
 size = Vector2(16, 16)
 
 [node name="NPC" type="CharacterBody2D" unique_id=2008687491]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=140367091]
-modulate = Color(1, 0.98333335, 0, 1)
-position = Vector2(-4.7683713e-07, -7.9999995)
-scale = Vector2(0.124999985, 0.24999999)
-texture = ExtResource("1_ideak")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1218364138]
+self_modulate = Color(0, 7.517879, 18.892157, 1)
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_uamtn")
+animation = &"idle_up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2136954907]
 shape = SubResource("RectangleShape2D_xxcha")
