@@ -1,0 +1,15 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1771460866
+area_trigger.gd::GDScript::8723894931288155202::1771425000::0::1::::<>Area2D<><>0<>0<><>::
+area_trigger.tscn::PackedScene::1813128492818564633::1771425000::0::1::::<><><>0<>0<><>::uid://dwj6jl3j8hy8y::::res://area_trigger.gd
+Elf_Idle_Front.png::CompressedTexture2D::5310645502107417874::1771460866::1771460866::1::::<><><>0<>0<>0ad7b22bd9a36552c11e574b585bc18b<>res://.godot/imported/Elf_Idle_Front.png-37f468b645bbcf704e5c0680eb448f25.ctex::
+icon.svg::CompressedTexture2D::2617090610339471480::1771425000::1771425036::1::::<><><>0<>0<>19c54c2ddbdddaff7eb33f27a334588c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+player.gd::GDScript::8846395780447952556::1771425000::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5638556706279840652::1771425000::0::1::::<><><>0<>0<><>::uid://dybi31alrsvvo::::res://player.gd<>uid://d3qqca5wt7j41::::res://Assets/Placeholder/16x32-charplaceholder.png
+world.tscn::PackedScene::8007088084674800480::1771425000::0::1::::<><><>0<>0<><>::uid://cmlmg8ff8c4ii::::res://player.tscn<>uid://ei04ei5b2du0::::res://Assets/Placeholder/16x16-envplaceholder.png<>uid://03j7xl5p57ur::::res://area_trigger.tscn
+::res://Assets/::1771425000
+::res://Assets/Placeholder/::1771425036
+16x16-envplaceholder.png::CompressedTexture2D::298840333244311669::1771425000::1771425036::1::::<><><>0<>0<>d3166bc3b46a342cd6c010842a7dffe1<>res://.godot/imported/16x16-envplaceholder.png-d71fba2180bf226c8131a4083c069cde.ctex::
+16x32-charplaceholder.png::CompressedTexture2D::9158554807851610888::1771425000::1771425036::1::::<><><>0<>0<>02a9b528beda9dff3707ed049a321ae4<>res://.godot/imported/16x32-charplaceholder.png-bdabf6ed8fa7226c7133b23ca95b07a8.ctex::
+::res://npc/::1771425000
+npc.tscn::PackedScene::3203414408927608462::1771425000::0::1::::<><><>0<>0<><>::uid://d3qqca5wt7j41::::res://Assets/Placeholder/16x32-charplaceholder.png
