@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://blv01c8txyhxu"]
 
 [ext_resource type="Texture2D" uid="uid://d3qqca5wt7j41" path="res://Assets/Placeholder/16x32-charplaceholder.png" id="1_2xp5l"]
+[ext_resource type="Script" uid="uid://bmaoqvb1sr5e6" path="res://npc/npc.gd" id="1_nhy3c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nhy3c"]
 atlas = ExtResource("1_2xp5l")
@@ -69,6 +70,9 @@ animations = [{
 size = Vector2(16, 16)
 
 [node name="NPC" type="CharacterBody2D" unique_id=2008687491]
+collision_layer = 4
+collision_mask = 7
+script = ExtResource("1_nhy3c")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1218364138]
 self_modulate = Color(0, 7.517879, 18.892157, 1)
@@ -78,3 +82,10 @@ animation = &"idle_up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2136954907]
 shape = SubResource("RectangleShape2D_xxcha")
+
+[node name="Label" type="Label" parent="." unique_id=1124476771]
+visible = false
+offset_top = -40.0
+offset_right = 40.0
+offset_bottom = -17.0
+text = "hello"

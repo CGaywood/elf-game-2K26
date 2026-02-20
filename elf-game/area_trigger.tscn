@@ -6,6 +6,7 @@
 size = Vector2(16, 32)
 
 [node name="AreaTrigger" type="Area2D" unique_id=1037223138]
+collision_layer = 6
 script = ExtResource("1_g6xv2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1090712900]

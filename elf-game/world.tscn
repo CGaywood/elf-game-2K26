@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://cmlmg8ff8c4ii" path="res://player.tscn" id="1_f3sb7"]
 [ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="2_fj7yv"]
 [ext_resource type="PackedScene" uid="uid://03j7xl5p57ur" path="res://area_trigger.tscn" id="3_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://blv01c8txyhxu" path="res://npc/npc.tscn" id="4_aqk2v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tlwt5"]
 texture = ExtResource("2_fj7yv")
@@ -11,7 +12,8 @@ texture = ExtResource("2_fj7yv")
 1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, 8, -8, 8, 8)
 
 [sub_resource type="TileSet" id="TileSet_aqk2v"]
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 2
+physics_layer_0/collision_mask = 7
 sources/0 = SubResource("TileSetAtlasSource_tlwt5")
 
 [node name="World" type="Node2D" unique_id=838524453]
@@ -23,8 +25,12 @@ tile_set = SubResource("TileSet_aqk2v")
 
 [node name="Player" parent="." unique_id=124079194 instance=ExtResource("1_f3sb7")]
 position = Vector2(345, 329)
+collision_mask = 7
 
 [node name="NPCs" type="Node2D" parent="." unique_id=357335669]
+
+[node name="NPC" parent="NPCs" unique_id=2008687491 instance=ExtResource("4_aqk2v")]
+position = Vector2(396, 183)
 
 [node name="AreaTrigger" parent="." unique_id=1037223138 instance=ExtResource("3_tlwt5")]
 position = Vector2(616, 160)
