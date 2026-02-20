@@ -15,7 +15,7 @@ texture = ExtResource("1_xljjp")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_tlwt5")
 
-[node name="World" type="Node2D" unique_id=838524453]
+[node name="World2" type="Node2D" unique_id=838524453]
 metadata/_edit_lock_ = true
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2059736493]
