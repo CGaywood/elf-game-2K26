@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://cmlmg8ff8c4ii" path="res://player.tscn" id="1_f3sb7"]
 [ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="2_fj7yv"]
 [ext_resource type="PackedScene" uid="uid://03j7xl5p57ur" path="res://area_trigger.tscn" id="3_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://b7gw3ioxbvbmr" path="res://game_manager.tscn" id="4_aqk2v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tlwt5"]
 texture = ExtResource("2_fj7yv")
@@ -28,5 +29,9 @@ position = Vector2(554, 255)
 
 [node name="AreaTrigger" parent="." unique_id=1037223138 instance=ExtResource("3_tlwt5")]
 position = Vector2(616, 160)
+
+[node name="GameManager" parent="." unique_id=973430440 instance=ExtResource("4_aqk2v")]
+
+[connection signal="zone_change" from="AreaTrigger" to="GameManager" method="_on_area_trigger_zone_change"]
 
 [editable path="AreaTrigger"]
