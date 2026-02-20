@@ -8,19 +8,10 @@ var direction
 
 # -- Animation --
 @onready var animated_sprite = $AnimatedSprite2D
-@export var idle_delay: float = 0.5 # seconds before idle animation plays
+@export var idle_delay: float = 0.0 # seconds before idle animation plays
 
 var idle_timer:float = 0.0
 var is_idle: bool = false
-
-# ---Player Inventory---
-# This dictionary holds all of the items the player can possibly possess
-# True if the player owns the item
-# False if they don't
-var inventory:Dictionary[String, bool] = {
-	"placeholder_item": false,
-	"placeholder_item2": false
-}
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

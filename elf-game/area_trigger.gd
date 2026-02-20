@@ -1,12 +1,17 @@
 extends Area2D
 ## Gives the player the option to move to another zone when entered
 
-# This var should be exported, but I'm not yet sure what the type should be
-# Or what exactly it should refer to (zone, or specific location in zone)
-var destination
+@export var destination_scene: PackedScene
+
+func _ready() -> void:
+	body_entered.connect(_on_body_entered)
 
 # This might be unnecessary but whatever
 signal zone_change(destination)
 
-func _on_area_entered(area: Area2D) -> void:
-	zone_change.emit(destination)
+func _on_body_entered(body: Node2D) -> void:
+	print("entered")
+	# Check if collision made by player
+	if body.name == "Player":
+		if destination_scene:
+			GameManager.call_deferred("change_location", destination_scene)

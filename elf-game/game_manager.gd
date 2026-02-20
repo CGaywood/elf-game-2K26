@@ -1,5 +1,6 @@
 extends Node2D
 
+var current_stage: int = 1 # Tracks stage 1-5
 
 # ---Player Inventory---
 # This dictionary holds all of the items the player can possibly possess
@@ -10,7 +11,10 @@ var inventory:Dictionary[String, bool] = {
 	"placeholder_item2": false
 }
 
-
+func advance_time():
+	if current_stage < 5:
+		current_stage += 1
+		print("The world has decayed to stage ", current_stage)
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -28,3 +32,10 @@ func _on_area_trigger_zone_change(destination: Variant) -> void:
 	# ELSE do nothing
 	# Scene change might not be in this function
 	pass # Replace with function body.
+	
+func change_location(target_scene: PackedScene):
+	if target_scene:
+		advance_time()
+		get_tree().change_scene_to_packed(target_scene)
+		print("Change Location")
+		
