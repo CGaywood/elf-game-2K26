@@ -33,9 +33,9 @@ func _on_area_trigger_zone_change(destination: Variant) -> void:
 	# Scene change might not be in this function
 	pass # Replace with function body.
 	
-func change_location(target_scene: PackedScene):
-	if target_scene:
+func change_location(target_path: String):
+	if target_path != "":
 		advance_time()
-		get_tree().change_scene_to_packed(target_scene)
+		get_tree().change_scene_to_file(target_path)
 		print("Change Location")
 		

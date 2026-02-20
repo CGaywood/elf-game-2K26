@@ -1,2 +1,4 @@
 res://world2.tscn
 res://world.tscn
+res://area_trigger.gd
+res://game_manager.gd

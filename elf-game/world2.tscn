@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="1_xljjp"]
 [ext_resource type="PackedScene" uid="uid://cmlmg8ff8c4ii" path="res://player.tscn" id="2_xdth8"]
 [ext_resource type="PackedScene" uid="uid://03j7xl5p57ur" path="res://area_trigger.tscn" id="3_vef27"]
-[ext_resource type="PackedScene" uid="uid://dmcxtn73c0xp5" path="res://world.tscn" id="4_xdth8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tlwt5"]
 texture = ExtResource("1_xljjp")
@@ -28,7 +27,7 @@ position = Vector2(344, 266)
 [node name="NPCs" type="Node2D" parent="." unique_id=357335669]
 
 [node name="AreaTrigger" parent="." unique_id=1037223138 instance=ExtResource("3_vef27")]
-position = Vector2(616, 160)
-destination_scene = ExtResource("4_xdth8")
+position = Vector2(338, 161)
+destination_path = "uid://dmcxtn73c0xp5"
 
 [editable path="AreaTrigger"]
