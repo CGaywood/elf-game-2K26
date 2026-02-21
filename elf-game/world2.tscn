@@ -166,7 +166,7 @@ position = Vector2(344, 266)
 [node name="NPCs" type="Node2D" parent="." unique_id=357335669]
 
 [node name="AreaTrigger" parent="." unique_id=1037223138 instance=ExtResource("3_vef27")]
-position = Vector2(338, 161)
+position = Vector2(458, 200)
 destination_path = "uid://dmcxtn73c0xp5"
 
 [node name="TileMapLayer2" type="TileMapLayer" parent="." unique_id=200720458]

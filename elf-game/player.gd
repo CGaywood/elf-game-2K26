@@ -20,6 +20,10 @@ var facing
 var idle_timer:float = 0.0
 var is_idle: bool = false
 
+# -- Camera --
+@export var camera_look_ahead_distance: float = 50.0
+@onready var camera = $Camera2D
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass
@@ -47,6 +51,8 @@ func _physics_process(delta: float) -> void:
 	if direction != Vector2.ZERO:
 		idle_timer = 0.0
 		is_idle = false
+		var target_offset = direction * camera_look_ahead_distance
+		camera.offset = camera.offset.lerp(target_offset, delta * 1.5)
 		
 		if direction == Vector2.UP:
 			animated_sprite.play("walk_up")

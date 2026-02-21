@@ -1,2 +1,6 @@
+res://world2.tscn
 res://player.tscn
 res://player.gd
+res://npc/npc.tscn
+res://world.tscn
+res://npc/npc.gd
