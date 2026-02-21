@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3isvkqoym6es"
-path="res://.godot/imported/Elf_Idle_Front.png-f34a65ddc2035c35ae60291e074cdb43.ctex"
+uid="uid://cm6ey4r1ux3u2"
+path="res://.godot/imported/Elf_Idle_Up.png-120714fa5f7e0d6213a88d29f6bfe920.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Elf_Idle_Front.png"
-dest_files=["res://.godot/imported/Elf_Idle_Front.png-f34a65ddc2035c35ae60291e074cdb43.ctex"]
+source_file="res://Assets/Player/Elf_Idle_Up.png"
+dest_files=["res://.godot/imported/Elf_Idle_Up.png-120714fa5f7e0d6213a88d29f6bfe920.ctex"]
 
 [params]
 
