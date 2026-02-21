@@ -2,14 +2,12 @@ extends CharacterBody2D
 
 
 
-var direction
+var direction: Vector2
 # Need this one to get the right idle animation + interactionbox position
 enum {UP, DOWN, LEFT, RIGHT}
 var facing
 
 @export var speed:float = 200
-
-@export var inv:Inv
 
 # -- Interactions --
 @onready var interaction_box_pivot: Marker2D = $InteractionBoxPivot
@@ -32,22 +30,27 @@ func _ready() -> void:
 	#animated_sprite.play("idle_front")
 
 
-func _physics_process(delta: float) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	
-	# Player Movement
+	# Movement
 	direction = Input.get_vector("left", "right", "up", "down").normalized()
-	velocity = direction*speed
-	
-	move_and_slide()
 	
 	# Interactions
 	if Input.is_action_just_pressed("interact"):
 		if interaction_box.has_overlapping_bodies():
-			# This part will probably cause problems, better solution needed
+			# This part will probably cause problems, better solution needed maybe
 			for body in interaction_box.get_overlapping_bodies():
 				if body is NPC:
 					print(body)
 					body.call_deferred("player_interact")
+	
+
+func _physics_process(delta: float) -> void:
+	
+	# Player Movement
+	# Inputs are handled in _unhandled_input()
+	velocity = direction*speed
+	move_and_slide()
 	
 	# Animation
 	if direction != Vector2.ZERO:

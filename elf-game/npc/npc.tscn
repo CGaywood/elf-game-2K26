@@ -200,6 +200,7 @@ size = Vector2(10, 7.5)
 collision_layer = 4
 collision_mask = 7
 script = ExtResource("1_nhy3c")
+idle_delay = null
 dialogue_lines = Array[String](["a", "v", "df", "dv"])
 reset_threshold = 5.0
 
