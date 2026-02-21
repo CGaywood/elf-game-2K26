@@ -1,0 +1,2 @@
+res://iventory.gd
+Animation

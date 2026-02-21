@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://ub5ihd63tjrb"]
+
+[ext_resource type="Script" uid="uid://j4kyaoimmus1" path="res://inventory/inventory_item.gd" id="1_bfv5h"]
+[ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="2_bfv5h"]
+
+[resource]
+script = ExtResource("1_bfv5h")
+name = "placeholder"
+texture = ExtResource("2_bfv5h")
+metadata/_custom_type_script = "uid://j4kyaoimmus1"

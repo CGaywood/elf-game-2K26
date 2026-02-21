@@ -9,6 +9,8 @@ var facing
 
 @export var speed:float = 200
 
+@export var inv:Inv
+
 # -- Interactions --
 @onready var interaction_box_pivot: Marker2D = $InteractionBoxPivot
 @onready var interaction_box: Area2D = $InteractionBoxPivot/InteractionBox

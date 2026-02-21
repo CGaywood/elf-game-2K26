@@ -1,2 +1,10 @@
+res://iventory.gd
+res://inventory/inv_ui.gd
+res://player.gd
 res://world2.tscn
-res://music_manager.gd
+res://player.tscn
+res://inventory/inv_ui.tscn
+res://inventory/inv_ui_slot.gd
+res://inventory/inv_ui_slot.tscn
+res://inventory/items/new_resource.tres
+res://inventory/player_inv.tres
