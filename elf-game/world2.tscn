@@ -1,6 +1,8 @@
 [gd_scene format=4 uid="uid://b7k0s5h3do4s7"]
 
+[ext_resource type="Script" uid="uid://bhj4rlfom7e6c" path="res://world_2.gd" id="1_k023l"]
 [ext_resource type="Texture2D" uid="uid://m1sg0joask2m" path="res://Assets/World/grass_tilemap.png" id="1_xdth8"]
+[ext_resource type="AudioStream" uid="uid://d4gfl3woev3mq" path="res://Assets/Music/The Forest Claims All (Phase 1) (1).ogg" id="2_d62yq"]
 [ext_resource type="Texture2D" uid="uid://b0rfc5bvu216i" path="res://Assets/World/forest_path.png" id="2_vef27"]
 [ext_resource type="PackedScene" uid="uid://cmlmg8ff8c4ii" path="res://player.tscn" id="2_xdth8"]
 [ext_resource type="PackedScene" uid="uid://03j7xl5p57ur" path="res://area_trigger.tscn" id="3_vef27"]
@@ -154,6 +156,8 @@ sources/3 = SubResource("TileSetAtlasSource_jaerl")
 sources/4 = SubResource("TileSetAtlasSource_iykvk")
 
 [node name="World2" type="Node2D" unique_id=838524453]
+script = ExtResource("1_k023l")
+level_music = ExtResource("2_d62yq")
 metadata/_edit_lock_ = true
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2059736493]
