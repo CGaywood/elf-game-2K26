@@ -53,10 +53,12 @@ func _physics_process(delta: float) -> void:
 			facing = UP
 		
 		elif direction == Vector2.RIGHT:
+			animated_sprite.flip_h = true
 			animated_sprite.play("walk_right")
 			facing = RIGHT
 		
 		elif direction == Vector2.LEFT:
+			animated_sprite.flip_h = false
 			animated_sprite.play("walk_left")
 			facing = LEFT
 		
