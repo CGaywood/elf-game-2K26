@@ -7,8 +7,8 @@ var current_stage: int = 1 # Tracks stage 1-5
 # True if the player owns the item
 # False if they don't
 var inventory:Dictionary[String, bool] = {
-	"placeholder_item": false,
-	"placeholder_item2": false
+	"Placeholder Item": false,
+	"Placeholder Item 2": false
 }
 
 func advance_time():

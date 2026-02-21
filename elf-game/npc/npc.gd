@@ -7,8 +7,12 @@ class_name NPC
 var idle_timer: float = 0.0
 var rng = RandomNumberGenerator.new()
 
-# -- Interaction script --
-@onready var label = $Label
+# -- Dialogue --
+@export var dialogue: DialogueResource
+@export var dialogue_start_point: String = "start"
+# Shouldn't need to change the start point since any logic related to the
+# dialogue can be handled in the dialogue manager.
+# i.e you can just put a conditional at the start to choose which lines to use.
 
 @export var dialogue_lines: Array[String] = []
 var current_line: int = 0
@@ -40,17 +44,21 @@ func _process(delta: float) -> void:
 			current_line = 0
 			interaction_timer = 0
 			interacting = false
-			label.hide()
+			#label.hide()
 
 
 func player_interact() -> void:
-	# Placeholder interaction until we get dialogue and UI sorted
-	interacting = true
-	label.show()
 	
-	if current_line < dialogue_lines.size():
-		label.text = dialogue_lines[current_line]
-		current_line += 1
-	else:
-		label.hide()
-		current_line = 0
+	if dialogue != null:
+		DialogueManager.show_dialogue_balloon(dialogue, "start")
+
+	## Placeholder interaction until we get dialogue and UI sorted
+	#interacting = true
+	#label.show()
+	#
+	##if current_line < dialogue_lines.size():
+		##label.text = dialogue_lines[current_line]
+		##current_line += 1
+	##else:
+		##label.hide()
+		##current_line = 0
