@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://dmcxtn73c0xp5"]
 
 [ext_resource type="PackedScene" uid="uid://cmlmg8ff8c4ii" path="res://player.tscn" id="1_f3sb7"]
-[ext_resource type="Script" uid="uid://xkhyhwmnsxcm" path="res://world.gd" id="1_pkg7o"]
+[ext_resource type="Script" uid="uid://xkhyhwmnsxcm" path="res://Zones/city/city1.gd" id="1_pkg7o"]
 [ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="2_fj7yv"]
 [ext_resource type="AudioStream" uid="uid://hsspwds4c0jp" path="res://Assets/Music/CS GJ1 City Theme TW.wav" id="2_gbfbk"]
 [ext_resource type="PackedScene" uid="uid://03j7xl5p57ur" path="res://area_trigger.tscn" id="3_tlwt5"]

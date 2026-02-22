@@ -1,3 +1,11 @@
+Panel
+CenterContainer
+Sprite2D
+GridContainer
+NinePatchRect
+ColorRect
+Control
+CanvasLayer
 TileMapLayer
 CollisionShape2D
 AnimatedSprite2D

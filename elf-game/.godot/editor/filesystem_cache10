@@ -1,16 +1,17 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1771703497
+::res://::1771720755
 area_trigger.gd::GDScript::8723894931288155202::1771593915::0::1::::<>Area2D<><>0<>0<><>::
 area_trigger.tscn::PackedScene::1813128492818564633::1771642028::0::1::::<><><>0<>0<><>::uid://dwj6jl3j8hy8y::::res://area_trigger.gd
 dialogue_box_theme.tres::Theme::-1::1771702800::0::1::::<><><>0<>0<><>::
-game_manager.gd::GDScript::6117597680166609229::1771702800::0::1::::<>Node2D<><>0<>0<><>::
+game_manager.gd::GDScript::6117597680166609229::1771719184::0::1::::<>Node2D<><>0<>0<><>::
 game_manager.tscn::PackedScene::4646236165565936325::1771587997::0::1::::<><><>0<>0<><>::uid://ctfn67v1a165f::::res://game_manager.gd
 icon.svg::CompressedTexture2D::2617090610339471480::1771425000::1771425036::1::::<><><>0<>0<>19c54c2ddbdddaff7eb33f27a334588c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-player.gd::GDScript::8846395780447952556::1771702800::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::5638556706279840652::1771702800::0::1::::<><><>0<>0<><>::uid://dybi31alrsvvo::::res://player.gd<>uid://cq8r1p0cau0o0::::res://Assets/Player/Elf_Idle_Down.png<>uid://dnrlaqk0rbboj::::res://inventory/player_inv.tres<>uid://dojkop4ah66fi::::res://Assets/Player/Elf_Idle_Left.png<>uid://cm6ey4r1ux3u2::::res://Assets/Player/Elf_Idle_Up.png<>uid://bvxgld2bjolmy::::res://Assets/Player/Elf_Down.png<>uid://chss3ivq2kn5v::::res://Assets/Player/Elf_Left.png<>uid://c11uf1tvu8mwg::::res://Assets/Player/Elf_Up.png<>uid://c4hkwqm5h7oi6::::res://inventory/inv_ui.tscn
-music_manager.gd::GDScript::5507173898879191206::1771703475::0::1::::<>Node<><>0<>0<><>::
-world2.tscn::PackedScene::4654659114551105368::1771702800::0::1::::<><><>0<>0<><>::uid://bhj4rlfom7e6c::::res://world_2.gd<>uid://m1sg0joask2m::::res://Assets/World/grass_tilemap.png<>uid://b1w5u5b5kte18::::res://Assets/Audio/The Forest Claims All (Phase 1) (1).ogg<>uid://b0rfc5bvu216i::::res://Assets/World/forest_path.png<>uid://cmlmg8ff8c4ii::::res://player.tscn<>uid://03j7xl5p57ur::::res://area_trigger.tscn<>uid://deuoy4u5d0ec4::::res://Assets/World/3_trees.png<>uid://c0svtp08i0sof::::res://Assets/World/3_trees_people.png<>uid://bivhn7suhl1d1::::res://Assets/World/dense_forest.png<>uid://fxtu1d758ksp::::res://Assets/World/large_elf_tree.png<>uid://g5u42p4kj7ty::::res://Assets/World/WoodenHouse.png
-world.tscn::PackedScene::8007088084674800480::1771702800::0::1::::<><><>0<>0<><>::uid://xkhyhwmnsxcm::::res://world.gd<>uid://cmlmg8ff8c4ii::::res://player.tscn<>uid://ei04ei5b2du0::::res://Assets/Placeholder/16x16-envplaceholder.png<>uid://cssw4d3y31k48::::res://Assets/Audio/CS GJ1 City Theme TW.wav<>uid://03j7xl5p57ur::::res://area_trigger.tscn<>uid://blv01c8txyhxu::::res://npc/npc.tscn
+music_manager.gd::GDScript::5507173898879191206::1771703724::0::1::::<>Node<><>0<>0<><>::
+player.gd::GDScript::8846395780447952556::1771720572::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5638556706279840652::1771720755::0::1::::<><><>0<>0<><>::uid://dybi31alrsvvo::::res://player.gd<>uid://cq8r1p0cau0o0::::res://Assets/Player/Elf_Idle_Down.png<>uid://d17b6ukijthdw::::res://inventory/playerinv.tres<>uid://dojkop4ah66fi::::res://Assets/Player/Elf_Idle_Left.png<>uid://cm6ey4r1ux3u2::::res://Assets/Player/Elf_Idle_Up.png<>uid://bvxgld2bjolmy::::res://Assets/Player/Elf_Down.png<>uid://chss3ivq2kn5v::::res://Assets/Player/Elf_Left.png<>uid://c11uf1tvu8mwg::::res://Assets/Player/Elf_Up.png<>uid://c4hkwqm5h7oi6::::res://inventory/inv_ui.tscn
+inventory.gd::GDScript::6819240110380644225::1771720384::0::1::::Inv<>Resource<><>0<>0<><>::
+transition_layer.gd::GDScript::4561207270568869484::1771719892::0::1::::<>CanvasLayer<><>0<>0<><>::
+transition_layer.tscn::PackedScene::7652509405653082::1771719874::0::1::::<><><>0<>0<><>::uid://b58qogpl45clo::::res://transition_layer.gd
 ::res://addons/::1771702800
 ::res://addons/dialogue_manager/::1771702800
 constants.gd::GDScript::4240262336831424009::1771702800::0::1::::DMConstants<>RefCounted<><>0<>0<><>::
@@ -89,12 +90,15 @@ find_in_dialogue_view.gd::GDScript::1182765515527006779::1771702800::0::1::::<>C
 find_in_dialogue_view.tscn::PackedScene::1783514634430556025::1771702800::0::1::::<><><>0<>0<><>::uid://q368fmxxa8sd::::res://addons/dialogue_manager/views/find_in_dialogue_view.gd
 main_view.gd::GDScript::5365867961863611872::1771702800::0::1::::<>Control<><>0<>1<><>::
 main_view.tscn::PackedScene::4884668666408697448::1771702800::0::1::::<><><>0<>0<><>::uid://cipjcc7bkh1pc::::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>uid://klpiq4tk3t7a::::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cnm67htuohhlo::::res://addons/dialogue_manager/assets/banner.png
-::res://Assets/::1771703540
+::res://Assets/::1771720821
 ::res://Assets/Fonts/::1771702800
 m3x6.ttf::FontFile::2774442906773213738::1771702800::1771702800::1::::<><><>0<>0<>6f35d2ba494975c555312ce15b9eb043<>res://.godot/imported/m3x6.ttf-2091198b5c2b61b4077727c383f79690.fontdata::
 m5x7.ttf::FontFile::587535802529698745::1771702800::1771702800::1::::<><><>0<>0<>a80c5f7a697a67695d90545b855b8bb4<>res://.godot/imported/m5x7.ttf-778afa09f28a4b3db6ea995db1b715ac.fontdata::
 m6x11.ttf::FontFile::6145681428309386675::1771702800::1771702800::1::::<><><>0<>0<>212ab1117b5aa22e35da9ed715331d00<>res://.godot/imported/m6x11.ttf-f712678e8d22610e8781247184d11acd.fontdata::
-::res://Assets/Music/::1771703586
+::res://Assets/inventory/::1771720861
+inventory-background.png::CompressedTexture2D::2582508094149303197::1771720847::1771720862::1::::<><><>0<>0<>5c1d2d5eabd9b1325a615ebb6aed91e0<>res://.godot/imported/inventory-background.png-3bcb4d3ac58477cf4b908668a93b5636.ctex::
+inventory-slot.png::CompressedTexture2D::7663267522484790419::1771720857::1771720862::1::::<><><>0<>0<>64fbf2eb6faea3812c78dacd29592101<>res://.godot/imported/inventory-slot.png-f9340265edb15c6b142aa5a3c29b1e13.ctex::
+::res://Assets/Music/::1771703616
 CS GJ1 City Theme TW.wav::AudioStreamWAV::529601558822488069::1771689065::1771703616::1::::<><><>0<>0<>0923708c49ca22d667050b9efcb956b2<>res://.godot/imported/CS GJ1 City Theme TW.wav-51ba4dba4f88541c4c33283c184f522c.sample::
 The Forest Claims All (Phase 1) (1).ogg::AudioStreamOggVorbis::9207449517085187776::1771690839::1771703616::1::::<><><>0<>0<>2ba258203d185356118069d6d0fd1ae6<>res://.godot/imported/The Forest Claims All (Phase 1) (1).ogg-2234e3919d7f504e4657f3fe7e1d3451.oggvorbisstr::
 ::res://Assets/NPC/::1771685653
@@ -121,16 +125,25 @@ WoodenHouse.png::CompressedTexture2D::484331964962461030::1771642036::1771642221
 default_balloon.gd::GDScript::3820448703432361363::1771702800::0::1::::<>CanvasLayer<><>0<>0<><>::
 default_balloon.tscn::PackedScene::1878621117983034012::1771702800::0::1::::<><><>0<>0<><>::uid://buowh5fngjr3p::::res://dialogue/default_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://yujxcs68f33y::::res://dialogue_box_theme.tres<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd
 dialogue.dialogue::Resource::4888733386822055455::1771702800::1771702862::1::::<><><>0<>0<>61a4346f6f84b0281d1d47929dba68ac<>res://.godot/imported/dialogue.dialogue-45417e75e16eba4a3d713e8559abbf2c.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://npc/::1771702800
-npc.gd::GDScript::3229566523691934023::1771702800::0::1::::NPC<>CharacterBody2D<><>0<>0<><>::
+::res://inventory/::1771720709
+inventory_item.gd::GDScript::692216598598683758::1771720243::0::1::::InvItem<>Resource<><>0<>0<><>::
+playerinv.tres::Resource/Inv::9050349216693188672::1771720572::0::1::::<><><>0<>0<><>::uid://j4kyaoimmus1::::res://inventory/inventory_item.gd<>uid://c4fj5g5kw425r::::res://inventory.gd<>uid://wr2qyh266tyb::::res://inventory/items/placeholder_item.tres
+inv_ui.gd::GDScript::8036419557962143026::1771720709::0::1::::<>Control<><>0<>0<><>::
+inv_ui.tscn::PackedScene::6823415794846078615::1771720572::0::1::::<><><>0<>0<><>::uid://dmq5wkk2dhgco::::res://inventory/inv_ui.gd
+::res://inventory/items/::1771720298
+placeholder_item.tres::Resource/InvItem::1580918186006359941::1771720298::0::1::::<><><>0<>0<><>::uid://j4kyaoimmus1::::res://inventory/inventory_item.gd<>uid://ei04ei5b2du0::::res://Assets/Placeholder/16x16-envplaceholder.png
+::res://npc/::1771718798
+npc.gd::GDScript::3229566523691934023::1771718798::0::1::::NPC<>CharacterBody2D<><>0<>0<><>::
 npc.tscn::PackedScene::3203414408927608462::1771702800::0::1::::<><><>0<>0<><>::uid://d3qqca5wt7j41::::res://Assets/Placeholder/16x32-charplaceholder.png<>uid://bmaoqvb1sr5e6::::res://npc/npc.gd<>uid://b1n53jtuo06ou::::res://Assets/NPC/ManIdle.png
 ::res://Zones/::1771702800
-::res://Zones/city/::1771702800
-city_1.tscn::PackedScene::1395766934721263576::1771702800::0::1::::<><><>0<>0<><>::
-::res://Zones/coast/::1771702800
-coast_1.tscn::PackedScene::3956380438473003413::1771702800::0::1::::<><><>0<>0<><>::
+::res://Zones/city/::1771719953
+city1.gd::GDScript::1635455461430905100::1771703724::0::1::::<>Node2D<><>0<>0<><>::
+city1.tscn::PackedScene::8007088084674800480::1771719950::0::1::::<><><>0<>0<><>::uid://cmlmg8ff8c4ii::::res://player.tscn<>uid://xkhyhwmnsxcm::::res://Zones/city/city1.gd<>uid://ei04ei5b2du0::::res://Assets/Placeholder/16x16-envplaceholder.png<>uid://hsspwds4c0jp::::res://Assets/Music/CS GJ1 City Theme TW.wav<>uid://03j7xl5p57ur::::res://area_trigger.tscn<>uid://cbweyvw1typjb::::res://dialogue/dialogue.dialogue<>uid://blv01c8txyhxu::::res://npc/npc.tscn
+::res://Zones/coast/::1771720709
+coast_1.tscn::PackedScene::3956380438473003413::1771720709::0::1::::<><><>0<>0<><>::
 coast_2.tscn::PackedScene::7604499273970476455::1771702800::0::1::::<><><>0<>0<><>::
 coast_3.tscn::PackedScene::4309925210599373544::1771702800::0::1::::<><><>0<>0<><>::
 coast_4.tscn::PackedScene::8024587896805914859::1771702800::0::1::::<><><>0<>0<><>::
-::res://Zones/forest/::1771702800
-forest_1.tscn::PackedScene::5807575293710604730::1771702800::0::1::::<><><>0<>0<><>::
+::res://Zones/forest/::1771719977
+forest1.gd::GDScript::2898113726366745456::1771703749::0::1::::<>Node2D<><>0<>0<><>::
+forest1.tscn::PackedScene::4654659114551105368::1771719977::0::1::::<><><>0<>0<><>::uid://bhj4rlfom7e6c::::res://Zones/forest/forest`1.gd<>uid://d4gfl3woev3mq::::res://Assets/Music/The Forest Claims All (Phase 1) (1).ogg<>uid://m1sg0joask2m::::res://Assets/World/grass_tilemap.png<>uid://b0rfc5bvu216i::::res://Assets/World/forest_path.png<>uid://cmlmg8ff8c4ii::::res://player.tscn<>uid://03j7xl5p57ur::::res://area_trigger.tscn<>uid://deuoy4u5d0ec4::::res://Assets/World/3_trees.png<>uid://c0svtp08i0sof::::res://Assets/World/3_trees_people.png<>uid://bivhn7suhl1d1::::res://Assets/World/dense_forest.png<>uid://fxtu1d758ksp::::res://Assets/World/large_elf_tree.png<>uid://g5u42p4kj7ty::::res://Assets/World/WoodenHouse.png

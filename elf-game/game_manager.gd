@@ -35,7 +35,12 @@ func _on_area_trigger_zone_change(destination: Variant) -> void:
 	
 func change_location(target_path: String):
 	if target_path != "":
+		await TransitionLayer.fade_to_black(0.5)
+		
 		advance_time()
 		get_tree().change_scene_to_file(target_path)
+		
+		await get_tree().process_frame
+		TransitionLayer.fade_from_black(0.5)
 		print("Change Location")
 		

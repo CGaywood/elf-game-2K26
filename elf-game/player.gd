@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-
+@export var inv: Inv
 
 var direction: Vector2
 # Need this one to get the right idle animation + interactionbox position
