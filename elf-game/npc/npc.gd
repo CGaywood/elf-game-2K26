@@ -14,12 +14,6 @@ var rng = RandomNumberGenerator.new()
 # dialogue can be handled in the dialogue manager.
 # i.e you can just put a conditional at the start to choose which lines to use.
 
-@export var dialogue_lines: Array[String] = []
-var current_line: int = 0
-var interacting: bool = false
-var interaction_timer = 0.0
-@export var reset_threshold: float = 0.0
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	idle_delay = rng.randf_range(1, 10)
@@ -36,14 +30,6 @@ func _process(delta: float) -> void:
 		animated_sprite.play("idle_up")
 		await animated_sprite.animation_finished
 		animated_sprite.play("default")
-		
-	if interacting:
-		if interaction_timer < reset_threshold:
-			interaction_timer += delta
-		else:
-			current_line = 0
-			interaction_timer = 0
-			interacting = false
 			#label.hide()
 
 
@@ -51,14 +37,3 @@ func player_interact() -> void:
 	
 	if dialogue != null:
 		DialogueManager.show_dialogue_balloon(dialogue, "start")
-
-	## Placeholder interaction until we get dialogue and UI sorted
-	#interacting = true
-	#label.show()
-	#
-	##if current_line < dialogue_lines.size():
-		##label.text = dialogue_lines[current_line]
-		##current_line += 1
-	##else:
-		##label.hide()
-		##current_line = 0

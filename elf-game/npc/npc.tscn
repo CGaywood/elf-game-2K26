@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d3qqca5wt7j41" path="res://Assets/Placeholder/16x32-charplaceholder.png" id="1_2xp5l"]
 [ext_resource type="Script" uid="uid://bmaoqvb1sr5e6" path="res://npc/npc.gd" id="1_nhy3c"]
 [ext_resource type="Texture2D" uid="uid://b1n53jtuo06ou" path="res://Assets/NPC/ManIdle.png" id="2_3i1kj"]
+[ext_resource type="Resource" uid="uid://cf4kysf40shma" path="res://dialogue/dialogue2.dialogue" id="2_o6cys"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uamtn"]
 atlas = ExtResource("2_3i1kj")
@@ -200,9 +201,7 @@ size = Vector2(10, 7.5)
 collision_layer = 4
 collision_mask = 7
 script = ExtResource("1_nhy3c")
-idle_delay = null
-dialogue_lines = Array[String](["a", "v", "df", "dv"])
-reset_threshold = 5.0
+dialogue = ExtResource("2_o6cys")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1218364138]
 position = Vector2(0, -8)

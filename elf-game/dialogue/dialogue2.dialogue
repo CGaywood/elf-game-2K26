@@ -1,9 +1,8 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some[wait=1] choices.
+Nathan: [[Hi|Hello|Howdy]], this igvgvgvgvv some dialogue.
+Nathan: Here are some choices.
 - First one
 	Nathan: You picked the first one.
-	=>< snippet
 - Second one
 	Nathan: You picked the second one.
 - Start again => start

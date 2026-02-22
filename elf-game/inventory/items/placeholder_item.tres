@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://wr2qyh266tyb"]
 
 [ext_resource type="Script" uid="uid://j4kyaoimmus1" path="res://inventory/inventory_item.gd" id="1_ulfqj"]
-[ext_resource type="Texture2D" uid="uid://ei04ei5b2du0" path="res://Assets/Placeholder/16x16-envplaceholder.png" id="2_23o1w"]
+[ext_resource type="Texture2D" uid="uid://cojo4eo0hmk8g" path="res://Assets/inventory/coins.png" id="2_ulfqj"]
 
 [resource]
 script = ExtResource("1_ulfqj")
 name = "placeholder"
-texture = ExtResource("2_23o1w")
+texture = ExtResource("2_ulfqj")
 metadata/_custom_type_script = "uid://j4kyaoimmus1"

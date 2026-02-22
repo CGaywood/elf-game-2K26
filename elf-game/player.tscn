@@ -450,7 +450,7 @@ position = Vector2(0, 12)
 shape = SubResource("RectangleShape2D_hqtel")
 
 [node name="Inv_UI" parent="." unique_id=203351303 instance=ExtResource("9_n7ghd")]
-offset_left = -31.0
-offset_top = -53.0
-offset_right = 31.0
-offset_bottom = -11.0
+offset_left = -38.0
+offset_top = -64.0
+offset_right = 24.0
+offset_bottom = -22.0
